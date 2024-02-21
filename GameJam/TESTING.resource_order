@@ -52,6 +52,7 @@
     {"name":"oEnemy","order":5,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"rMenu","order":2,"path":"rooms/rMenu/rMenu.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
+    {"name":"tl_BlueGrass_2","order":2,"path":"tilesets/tl_BlueGrass_2/tl_BlueGrass_2.yy",},
     {"name":"ScreenShake","order":1,"path":"scripts/ScreenShake/ScreenShake.yy",},
     {"name":"obj_corsair","order":15,"path":"objects/obj_corsair/obj_corsair.yy",},
     {"name":"oCamera","order":7,"path":"objects/oCamera/oCamera.yy",},
