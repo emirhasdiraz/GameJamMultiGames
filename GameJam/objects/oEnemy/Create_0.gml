@@ -1,7 +1,4 @@
-hsp = 0;
-vsp = 0;
-grv = 0.1;
-walksp = 2;
+// Create Event of oEnemy object
+// Initialize enemy's health
+hp = 100; // Initial health of enemy
 
-hp = 4;
-flash = 0;

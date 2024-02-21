@@ -1,4 +1,3 @@
-//get player input
 
 if (hascontrol)
 {
@@ -18,17 +17,28 @@ key_up = 0;
 key_down = 0;
 }
 
-//calculate movement horizontally
-var move = key_right - key_left;
+// Calculate movement horizontally
+var move_x = key_right - key_left;
+hsp = move_x * walksp;
 
-hsp = move * walksp;
+// Calculate movement vertically
+var move_y = key_down - key_up;
+vsp = move_y * walksp;
 
-vsp = vsp + grv;
+if(move != 0 || move2 != 0){
+	if (move_x > 0) {
+        sprite_index = spr_walk;
+    } else if (move_x < 0) {
+        sprite_index = spr_walkL;
+	} else if (move_y < 0){
+	sprite_index = spr_back;
+	}
+	else{
+	sprite_index = spr_idle;
+   }
+}
 
-//calculate movement vertically
-var move2 = key_down - key_up;
-
-vsp = move2 * walksp
+  
 
 //horizontal collision
 if (place_meeting(x+hsp,y,oWall))
@@ -53,3 +63,19 @@ if (place_meeting(x,y+vsp,oWall))
 }
 
 y = y + vsp;
+
+
+if(hasweapon &&  keyboard_check_pressed(ord("Q"))){
+	if(currentweapon == "pistol"){
+      instance_destroy(oGun);
+	  instance_create_layer(x + 30, y, "Instances", obj_weaponpickup);
+	  oPlayer.hasweapon = false;
+	  audio_play_sound(place_something_42719, 0, false);
+	}
+	else if(currentweapon == "shotgun"){
+		instance_destroy(obj_shotgun);
+		instance_create_layer(x + 30, y, "Instances", obj_shottiepickup);
+		oPlayer.hasweapon = false;
+	}
+	hasweapon = false;
+}

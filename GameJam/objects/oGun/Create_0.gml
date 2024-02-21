@@ -1,4 +1,4 @@
-firingdelay = 0;
-recoil = 0;
+firingdelay = 2;
+recoil = 0.5;
 
 
