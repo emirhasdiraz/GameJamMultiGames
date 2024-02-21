@@ -60,7 +60,6 @@
     {"name":"spr_corsair","order":15,"path":"sprites/spr_corsair/spr_corsair.yy",},
     {"name":"oTree","order":2,"path":"objects/oTree/oTree.yy",},
     {"name":"spr_exitshot","order":13,"path":"sprites/spr_exitshot/spr_exitshot.yy",},
-    {"name":"Sprite33","order":24,"path":"sprites/Sprite33/Sprite33.yy",},
     {"name":"sCrosshair","order":9,"path":"sprites/sCrosshair/sCrosshair.yy",},
     {"name":"spr_startshot","order":11,"path":"sprites/spr_startshot/spr_startshot.yy",},
     {"name":"obj_creds","order":20,"path":"objects/obj_creds/obj_creds.yy",},
