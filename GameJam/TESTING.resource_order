@@ -21,6 +21,7 @@
     {"name":"oDead","order":6,"path":"objects/oDead/oDead.yy",},
     {"name":"spr_E","order":18,"path":"sprites/spr_E/spr_E.yy",},
     {"name":"sTrigger","order":8,"path":"sprites/sTrigger/sTrigger.yy",},
+    {"name":"Obj_muur","order":28,"path":"objects/Obj_muur/Obj_muur.yy",},
     {"name":"oGun","order":3,"path":"objects/oGun/oGun.yy",},
     {"name":"shotgun_146188","order":4,"path":"sounds/shotgun_146188/shotgun_146188.yy",},
     {"name":"sEnemyIdle","order":6,"path":"sprites/sEnemyIdle/sEnemyIdle.yy",},
