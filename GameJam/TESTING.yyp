@@ -39,6 +39,7 @@
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},},
     {"id":{"name":"spr_E","path":"sprites/spr_E/spr_E.yy",},},
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},},
+    {"id":{"name":"Obj_muur","path":"objects/Obj_muur/Obj_muur.yy",},},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},},
     {"id":{"name":"shotgun_146188","path":"sounds/shotgun_146188/shotgun_146188.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
