@@ -1,5 +1,5 @@
-x = oPlayer.x+40;
-y = oPlayer.y-5;
+x = oPlayer.x + 30;
+y = oPlayer.y + 5;
 
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 
@@ -17,6 +17,7 @@ if (mouse_check_button(mb_left) && (firingdelay < 0))
 		direction = other.image_angle + random_range (-3,3);
 		image_angle = direction;
 	}
+	audio_play_sound(_9mm_pistol_shot_6349, 0, false)
 }
 
 x = x - lengthdir_x(recoil,image_angle)
