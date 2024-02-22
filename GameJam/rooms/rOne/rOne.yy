@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rOne",
-  "creationCodeFile": "",
+  "creationCodeFile": "rooms/rOne/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,
