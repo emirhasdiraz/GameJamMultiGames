@@ -38,12 +38,9 @@ if(move != 0 || move2 != 0){
    }
 }
 
-  
-
-//horizontal collision
-if (place_meeting(x+hsp,y,oWall))
+if (place_meeting(x+hsp,y,Obj_muur))
 {
-	while (!place_meeting(x+sign(hsp),y,oWall))
+	while (!place_meeting(x+sign(hsp),y,Obj_muur))
 	{
 		x = x + sign(hsp);
 	}
@@ -52,10 +49,9 @@ if (place_meeting(x+hsp,y,oWall))
 
 x = x + hsp;
 
-//vertical collision
-if (place_meeting(x,y+vsp,oWall))
+if (place_meeting(x,y+vsp,Obj_muur))
 {
-	while (!place_meeting(x,y+sign(vsp),oWall))
+	while (!place_meeting(x,y+sign(vsp),Obj_muur))
 	{
 		y = y + sign(vsp);
 	}
